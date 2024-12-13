@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Edge of Tomorrow</title>
+    <meta name="google" content="notranslate" />
+    <link
+      rel="shortcut icon"
+      href="assets/favicon.webp"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="--clr: #cfb59e; --clr2: #c6935a">
+    <svg>
+      <filter id="radialLight">
+        <feFlood flood-color="white" result="whiteFill" />
+        <feGaussianBlur
+          in="whiteFill"
+          stdDeviation="50"
+          result="blurredLight"
+        />
+        <feBlend
+          mode="multiply"
+          in="SourceGraphic"
+          in2="blurredLight"
+        />
+      </filter>
+    </svg>
+
+    <section style="--bg: url(assets/img-1.avif)">
+      <a href="index7.html"></a>
+      <a href="index2.html"></a>
+    </section>
+  </body>
+</html>
